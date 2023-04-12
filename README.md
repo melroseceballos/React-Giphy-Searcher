@@ -26,7 +26,7 @@ Before starting this project, you'll need to go to the [Giphy Developers site](h
 
 ### Scaffold Your Project
 1. Fork and clone this repo
-1. Using Vite, create a React app called `react-giphy searcher` with Tailwind CSS by following [this guide](https://tailwindcss.com/docs/guides/vite)
+1. Using Vite, create a React app called `react-giphy-searcher` with Tailwind CSS by following [this guide](https://tailwindcss.com/docs/guides/vite)
 1. Remove all the unnecessary SVG files
 1. Create a `components` folder inside `src`
 1. Inside the `components` folder, create another folder called `App`
