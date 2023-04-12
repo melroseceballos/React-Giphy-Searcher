@@ -117,6 +117,13 @@ For this deliverable you'll be building something similar to what we've done in 
         - The gif image
         - The gif title
         - The user (the gif creator)'s avatar, username, and link to their Giphy profile
+- Your landing page should be styled with Tailwind CSS.
+
+Here's a possible mockup depicting what the landing page could look like:
+
+![Landing Page](./trending.png)
+
+(If you build a search bar like in the image above, it does not need to be functional yet)
 
 ### Hungry for More
 - On your landing page, display 10 gifs and build out pagination functionality so that you can view 10 new gifs each time you paginate forwards or backwards.
