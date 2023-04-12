@@ -8,7 +8,7 @@ Here's what we need for our MVP:
 - [ ] Style the site with [Tailwind CSS](https://tailwindcss.com/)
 - [ ] Connect our application to the API
 - [ ] Load gifs into a gallery when our application loads
-- [ ] Display all gis from the [trending endpoint](https://developers.giphy.com/docs/api/endpoint/#trending) on component mount
+- [ ] Display all gifs from the [trending endpoint](https://developers.giphy.com/docs/api/endpoint/#trending) on component mount
 - [ ] When a gif is clicked on, display a details page that shows more information about that gif, such as the gif's creator
 - [ ] Create a search bar that will search for gifs depending on what is searched and display the results in the gallery. This search bar will use the [search endpoint](https://developers.giphy.com/docs/api/endpoint/#search)
 
