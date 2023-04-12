@@ -1,28 +1,14 @@
 # React Giphy Searcher
+<p align="center"><img src="#" /></p>
 
-In this tutorial, we'll go through all of the steps to build a Giphy Searcher app in react that allows users to search the [Giphy API](https://developers.giphy.com/).
-
-## Project Mockup
+## Project Concept
+We are going to build a searchable interfacer for the [Giphy API](https://developers.giphy.com/)
 
 Our project designer provided us with the following mockup:
 
 <img width="100%" alt="project mockup" src="https://media.git.generalassemb.ly/user/17300/files/d88b5a00-3da9-11ea-9d57-7a742c153636">
 
 Let's get working on building this thing!
-
-### Steps
-
-1.  [Sign up for an API key](#sign-up-for-an-api-key)
-1.  [Scaffold your project](#scaffold-your-project)
-1.  [Create files for components and empty App](#create-files-for-components-and-empty-app)
-1.  [Create barebones SearchForm and SearchResults components](#create-barebones-searchform-and-searchresults-components)
-1.  [Add and style the SearchForm component JSX](#add-and-style-searchform-component-jsx)
-1.  [Add and style SearchResults component JSX](#add-and-style-searchresults-component-jsx)
-1.  [Store your API key safely](#store-your-api-key-safely)
-1.  [Add the Giphy API request](#add-the-giphy-api-request)
-1.  [Add SearchForm functionality](#add-searchform-functionality)
-1.  [Improving the User Experience](#improving-the-user-experience)
-
 ## Sign up for an API key
 
 Before starting this project, you'll need to go to the [Giphy Developers site](https://developers.giphy.com/docs/api/) and obtain an api key.
