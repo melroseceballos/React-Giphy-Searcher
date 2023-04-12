@@ -24,7 +24,7 @@ Before starting this project, you'll need to go to the [Giphy Developers site](h
 1. Add a new GET request to the collection and test out the [trending endpoint](https://developers.giphy.com/docs/api/endpoint/#trending) to make sure your key is working.
 1. Add another new GET request to the collection and test out the [search endpoint](https://developers.giphy.com/docs/api/endpoint/#trending).
 
-### Scaffold your Project
+### Scaffold Your Project
 1. Fork and clone this repo
 1. Using Vite, create a React app called `react-giphy searcher` with Tailwind CSS by following [this guide](https://tailwindcss.com/docs/guides/vite)
 1. Remove all the unnecessary SVG files
