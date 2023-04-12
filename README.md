@@ -19,7 +19,7 @@ Before starting this project, you'll need to go to the [Giphy Developers site](h
 1.  Create an account and sign in.
 1.  Set up an app by clicking the Create App in the navbar to obtain your beta key.
 
-## Test Out Your API Key in Postman
+### Test Out Your API Key in Postman
 1. Open Postman and create a new collection called *React Giphy Searcher*
 1. Add a new GET request to the collection and test out the [trending endpoint](https://developers.giphy.com/docs/api/endpoint/#trending) to make sure your key is working.
 1. Add another new GET request to the collection and test out the [search endpoint](https://developers.giphy.com/docs/api/endpoint/#trending).
