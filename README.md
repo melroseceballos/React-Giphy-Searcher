@@ -97,6 +97,8 @@ function App() {
 export default App;
 ```
 
+If you would like to learn more about Vite and environment variables, you can visit [this page](https://vitejs.dev/guide/env-and-mode.html).
+
 ## Structuring Your React App
 Currently your application file structure matches what's outlined above. ***We recommend you build your app with the same file structure as what we've built in class.***
 
