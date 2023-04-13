@@ -1,0 +1,19 @@
+
+*{
+    background-color: lightblue;
+}
+.center{
+    text-align: center;
+    background-color: wheat;
+}
+.gif-divs{
+   padding-right: 4rem;
+   margin-right: 2rem;
+   margin-left: 5rem;
+   padding-left: 2rem;
+}
+.detailgif{
+    text-align: center;
+    padding-top: 4rem;
+    border: 2rem solid darkblue;
+}
