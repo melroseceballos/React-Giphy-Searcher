@@ -31,14 +31,13 @@ function HomePage(){
       
         return (
           <>
-          <h1 className='center'>React Giphy Searcher</h1>
           <div className='gif-divs'>
             {/* ITERATES THROUGH THE GIFS DATA CALLED BY THE ASYNC FUNCTION */}
           {gifs.map((gif) => (
             // CHECKING FIRST IF THE GIF IMAGE IS THERE AND IT ALSO CONTAINS ID AND GIF IMAGE AND TITLE. ALSO ADDED MY ONCLICK HERE
          gif.images && 
          <Link to ={`/detail/${gif.id}`}>
-         <img key={gif.id} src={gif.images.fixed_height.url} alt={gif.title}/>
+         <img className="gifsImage" key={gif.id} src={gif.images.fixed_height.url} alt={gif.title}/>
          </Link>
             ))}
           </div>

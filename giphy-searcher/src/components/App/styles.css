@@ -1,19 +1,21 @@
 
 *{
-    background-color: lightblue;
+    background-color: rgb(0, 0, 0);
 }
 .center{
     text-align: center;
     background-color: wheat;
+    line-height: 3rem;
+    font-size: 2rem !important;
+    color: rgb(3, 14, 57);
+    font-weight: 600;
 }
-.gif-divs{
-   padding-right: 4rem;
-   margin-right: 2rem;
-   margin-left: 5rem;
-   padding-left: 2rem;
-}
-.detailgif{
-    text-align: center;
-    padding-top: 4rem;
-    border: 2rem solid rgba(231, 128, 231, 0.572);
+
+
+.linkMe{
+    margin-left: 35rem;
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-decoration: underline;
+    color: blue;
 }

@@ -6,8 +6,12 @@ import { Routes, Route, Link } from 'react-router-dom';
 function App(){
   return(
     <>
+    <header>
+      <h1 className="center">React Gif-y Researcher</h1>
+    </header>
     <nav>
-    <Link to="/">Home|</Link>
+    <Link className="linkMe" to="/">Take Me Home</Link>
+    {/* // I COMMENTED OUT THE DETAIL BECAUSE I DON'T WANT IT TO BE A PART OF THE NAV */}
     {/* <Link to="/detail">Detail</Link> */}
     </nav>
     <main>

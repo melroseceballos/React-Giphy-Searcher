@@ -22,7 +22,7 @@ function DetailPage() {
   return (
     <>
       <div className='detailgif'>
-        <img src={gifs.images?.fixed_height?.url} alt={gifs.title} />
+        <img className="gifImage" src={gifs.images?.fixed_height?.url} alt={gifs.title} />
         <p><strong>Gif Title: </strong>{gifs.title}</p>
         {gifs.user && (
           <>
