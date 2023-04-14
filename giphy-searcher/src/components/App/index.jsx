@@ -7,13 +7,13 @@ function App(){
   return(
     <>
     <nav>
-    <Link to="/">Home   |</Link>
-    <Link to="/details">Details   |</Link>
+    <Link to="/">Home|</Link>
+    {/* <Link to="/detail">Detail</Link> */}
     </nav>
     <main>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/details" element={<DetailPage />} />
+        <Route path="/detail/:id" element={<DetailPage />} />
       </Routes>
 
     </main>

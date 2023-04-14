@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
-import Detail from '../Detail/detail'
+import { Link } from 'react-router-dom'
+import './styles.css'
+// import DetailPage from '../DetailsPage/details'
 
 function HomePage(){
         // STATING DECLARATIONS HERE
@@ -23,9 +25,9 @@ function HomePage(){
         }, [detailpage]) 
       
             // THIS THE FUNCTION FOR THE DETAILS PAGE TO RENDER WHEN A GIF IS CLICKED 
-        function gifClick (gifs){
-          setDetail(gifs) 
-        }
+        // function gifClick (gifs){
+        //   setDetail(gifs) 
+        // }
       
         return (
           <>
@@ -34,17 +36,17 @@ function HomePage(){
             {/* ITERATES THROUGH THE GIFS DATA CALLED BY THE ASYNC FUNCTION */}
           {gifs.map((gif) => (
             // CHECKING FIRST IF THE GIF IMAGE IS THERE AND IT ALSO CONTAINS ID AND GIF IMAGE AND TITLE. ALSO ADDED MY ONCLICK HERE
-         gif.images && <img key={gif.id} src={gif.images.fixed_height.url} alt={gif.title} onClick={() => gifClick(gif)}/>
+         gif.images && 
+         <Link to ={`/detail/${gif.id}`}>
+         <img key={gif.id} src={gif.images.fixed_height.url} alt={gif.title}/>
+         </Link>
             ))}
-            </div>
-            {/* CALLING DETAIL PAGE HERE */}
-            {/* THE FIRST SECTION BEFORE && CHECKS IF THE DETAIL PAGE IS NOT () 
-            IT MAKES SURE THAT A GIF IS SELECTED */}
-            {detailpage && <Detail gifs={detailpage}/>} 
+          </div>
           </>
                
         );
       }
+
 
 
 export default HomePage
