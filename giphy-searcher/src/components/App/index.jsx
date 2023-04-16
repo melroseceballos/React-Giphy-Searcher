@@ -11,7 +11,9 @@ function App(){
       <Link className="linkMe" to="/">
         <h1 className="center">React Gif-y Researcher</h1>
       </Link>
-      <Link to="/search">Search</Link>
+      <Link to="/search">
+        <h1 className='searchMe'>Search A Gif</h1>
+      </Link>
     </header>
     <main>
       <Routes>

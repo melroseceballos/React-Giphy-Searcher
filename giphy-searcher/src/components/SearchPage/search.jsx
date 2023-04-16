@@ -8,8 +8,10 @@ function Search(props)   {
 
     const handleQuerySubmit = async (event) => {
         event.preventDefault()
-        const res = await fetch(`https://api.giphy.com/v1/gifs/search?api_key=gFLjl3lP5EhoxffaamxiQnrmpSxoLQ48&q=${query}&limit=25&offset=0&rating=g&lang=en`)
+        console.log(query)
+        const res = await fetch('https://api.giphy.com/v1/gifs/search?api_key=gFLjl3lP5EhoxffaamxiQnrmpSxoLQ48&q=${encodeURIComponent(query)}&limit=50')
         const apiResponse = await res.json()
+        console.log(apiResponse)
         const { data } = apiResponse
         setQueryResults(data)
     }
@@ -17,9 +19,10 @@ function Search(props)   {
     return( 
         <>
             <div className="search-page p-10">
-                <form onSubmit={handleQuerySubmit} className="mt-4 text-center">
+                <form onSubmit={handleQuerySubmit} className="searchBar">
                     <label htmlFor="search" className="block font-medium mb-1">
-                        <h1 className="text-3xl font-bold">Search a GIF</h1>
+                        <h1 className="text-3xl font-bold">Any Gif You'd Like to Find?</h1>
+                        <p>Showing results for GIF: {query} </p>
                     </label>
                     <br />
                     <input
