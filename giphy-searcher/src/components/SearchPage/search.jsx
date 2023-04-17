@@ -45,7 +45,6 @@ function Search() {
           </label>
           <br />
           <input
-            className="p-2 w-[60vw] rounded border border-gray-300 focus:outline-none focus:border-gray-500"
             name="search"
             placeholder="Baby yoda dancing ... "
             value={query}
